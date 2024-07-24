@@ -7,7 +7,7 @@ curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo ufw allow 22/tcp
 sudo ufw allow 8080
-sudo ufw enable
+sudo ufw enable -y
 git clone https://github.com/c9/core.git c9sdk
 cd c9sdk
 scripts/install-sdk.sh
