@@ -1,10 +1,4 @@
 #!/bin/bash
-sudo apt-get update -y
-sudo apt-get install python -y
-sudo apt-get install build-essential -y
-sudo apt-get install git -y 
-curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
 sudo ufw allow 22/tcp
 sudo ufw allow 8080
 sudo ufw enable -y
