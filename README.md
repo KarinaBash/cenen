@@ -17,7 +17,7 @@ sudo apt-get install curl -y
 
 Then run the installer command
 ```sh
-curl -sL https://raw.githubusercontent.com/bolehjuga/c9installer/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
+curl -sL https://raw.githubusercontent.com/KarinaBash/cenen/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
 ```
 
 #### Running IDE
@@ -25,7 +25,7 @@ curl -sL https://raw.githubusercontent.com/bolehjuga/c9installer/master/installe
 You can run sleepless (24x7) IDE using forever
 
 ```sh
-forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+node server.js -p 8080 -a memek:basah --listen 0.0.0.0 -w /root/aku 
 ```
 
 
